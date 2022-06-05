@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full:2022-06-03-16-28-21
 SHELL ["/bin/bash", "-c"]
 
 RUN sudo apt-get -qq update
