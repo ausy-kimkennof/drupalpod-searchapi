@@ -1,0 +1,14 @@
+uuid: fe7f1c86-02c3-4d4b-aa2c-0a07d37980df
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: local
+name: Local
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 3
+  matching: words

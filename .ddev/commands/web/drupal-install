@@ -5,4 +5,4 @@
 ## Example: "ddev drupal-install"
 
 composer install
-drush site:install -y
+drush site:install --existing-config -y
