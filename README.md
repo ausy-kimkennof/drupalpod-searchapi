@@ -2,6 +2,8 @@
 
 > Starter-kit for running a Drupal 9 website in Gitpod
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ausy-kimkennof/drupalpod-searchapi)
+
 
 ## Getting started
 
