@@ -1,23 +1,13 @@
-uuid: f2975e01-b03e-4786-8d2a-68d1dcddf96f
+uuid: 06222833-29ba-46b3-ab5d-8bcaf0b72f08
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.article.body
-    - field.field.node.article.field_media_image
-    - field.field.node.article.field_tags
-    - field.field.node.article.layout_builder__layout
     - node.type.article
   module:
-    - layout_builder
     - text
     - user
-third_party_settings:
-  layout_builder:
-    enabled: false
-    allow_custom: false
-_core:
-  default_config_hash: 4UCaLHrYCxt7yCaGzdiyAzD8E0ecaVIDI7aLVunEu2Y
 id: node.article.default
 targetEntityType: node
 bundle: article
@@ -28,31 +18,12 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 3
-    region: content
-  field_media_image:
-    type: entity_reference_entity_view
-    label: hidden
-    settings:
-      view_mode: responsive_3x2
-      link: false
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_tags:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
     weight: 0
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 4
+    weight: 1
     region: content
 hidden:
-  content_moderation_control: true
-  langcode: true
-  layout_builder__layout: true
+  search_api_excerpt: true

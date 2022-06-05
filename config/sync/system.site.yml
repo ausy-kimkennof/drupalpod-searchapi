@@ -1,14 +1,15 @@
 _core:
-  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
-uuid: 1a34b320-2423-46ba-9a6a-7886d18327e6
-name: 'Umami Food Magazine'
+uuid: 884a8464-343e-4bba-9aa9-4d75be372281
+name: Sandbox
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
+mail_notification: ''
